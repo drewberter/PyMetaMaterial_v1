@@ -1,0 +1,25 @@
+name: fenicsx-env
+channels:
+  - conda-forge
+dependencies:
+  - python=3.9
+  - fenics-dolfinx
+  - fenics-ffcx
+  - fenics-ufl
+  - mpi4py
+  - petsc4py
+  - numpy
+  - scipy
+  - matplotlib
+  - pyvista
+  - flask  # Backend API server
+  - dash  # If you're still using Dash for components
+  - plotly
+  - pyqt
+  - pillow
+  - h5py
+  - meshio
+  - jupyter
+  - pip
+  - pip:
+    - dash-bootstrap-components
